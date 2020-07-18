@@ -1,20 +1,20 @@
 // Code your solutions in this file
-function writeCards( names, event ) 
+function writeCards(names, event) 
 {
   let cards = []
-  for ( let i = 0; i < names.length; i++ ) 
+  for(let i = 0; i < names.length; i++) 
   {
-    cards.push( `Thank you, ${names[i]}, for the wonderful ${event} gift!` )
+    cards.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
   }
   return thankYouCards
 }
 
-function countDown( start ) 
+function countDown(start) 
 {
-  while ( start > 0 ) 
+  while(start > 0) 
   {
-    console.log( start );
+    console.log(start);
     start -= 1;
   }
-  console.log( start );
+  console.log(start);
 }
